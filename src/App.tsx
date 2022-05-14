@@ -1,5 +1,6 @@
 import { Greet } from "./components/Greet";
 import { Person } from "./components/Person";
+import { PersonList} from "./components/PersonList"
 
 function App() {
   const personName = {

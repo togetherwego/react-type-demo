@@ -1,6 +1,7 @@
 import React from "react";
 
 type GreetProps = {
+  //string, number, boolean props type
   name: string;
   messageCount: number;
   isLoggedIn: boolean;
