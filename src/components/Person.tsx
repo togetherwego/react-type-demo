@@ -1,5 +1,6 @@
 import React from 'react'
 type PersonProps = {
+  //object props
   name: {
     first: string
     last: string
