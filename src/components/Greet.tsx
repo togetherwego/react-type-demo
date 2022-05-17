@@ -3,11 +3,13 @@ import React from "react";
 type GreetProps = {
   //string, number, boolean props type
   name: string;
-  messageCount: number;
+  messageCount?: number; //we can add the ? to never mind if null
   isLoggedIn: boolean;
 };
 
 export const Greet = (props: GreetProps) => {
+  //specify optional props
+  const {messageCount = 0} = props
   return (
     <div>
       <h1>
